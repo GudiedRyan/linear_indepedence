@@ -33,6 +33,12 @@ function App() {
       </p>
       <br />
       <Vectors />
+      <br />
+      <p>There are a few tests for linear independence we can do pretty easily.
+        Can you use <strong>X</strong> to make <strong>Y</strong>? Is there any vector that you cannot generate using some linear
+        combination of <strong>X</strong> and <strong>Y</strong>? If the answer to both of these is no, then these two vectors are
+        linearly independent.
+      </p>
     </div>
   );
 }
