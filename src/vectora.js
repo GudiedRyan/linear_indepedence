@@ -11,9 +11,16 @@ class Vectors extends React.Component {
     render() {
         return(
             <div>
-                {this.state.countTop}
-                <br />
-                {this.state.countBot}
+                <div className="vector">
+                <table className="matrix">
+                    <tr>
+                        <td>{this.state.countTop}</td>
+                    </tr>
+                    <tr>
+                        <td>{this.state.countBot}</td>
+                    </tr>
+                </table>
+                </div>
                 <br />
                 <button onClick={this.addX}>Add X</button>
                 <button onClick={this.subtractX}>Subtract X</button>
